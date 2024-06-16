@@ -21,37 +21,31 @@ Upon successful startup, you’ll be greeted with a confirmation message stating
 
 
 ## 📚 Usage
-With your server up and running, explore these endpoints to interact with the application:
 
-- GET /sellProduct: Retrieve a comprehensive list of all transactions from the sellbuys collection.
-Query Parameters:
-sortBy: Organize your data by lowerSoldPrice or higherSoldPrice.
-Sample Requests:
-/sellProduct
-/sellProduct?sortBy=lowerSoldPrice
-/sellProduct?sortBy=higherSoldPrice
+Explore the available endpoints to interact with the application:
 
-- POST /sellProduct: Commit new transaction data to the sellbuys collection.
-Sample Request Body:
-JSON
-
-{
-  "productName": "Table",
-  "costPrice": 1000,
-  "soldPrice": 1500
-}
-AI-generated code. Review and use carefully. More info on FAQ.
-
-- PATCH /sellProduct/<id>: Update existing transaction details in the sellbuys collection.
-Sample Request Body:
-JSON
-
-{
-  "soldPrice": 2000
-}
-
-- DELETE /sellProduct/<id>: Remove transaction records using their unique identifier.
-
+- **GET /sellProduct**
+  - Retrieve a comprehensive list of all transactions from the sellbuys collection.
+  - Query Parameters:
+    - sortBy: Organize your data by lowerSoldPrice or higherSoldPrice.
+  - Sample Requests:
+    - `/sellProduct`
+    - `/sellProduct?sortBy=lowerSoldPrice`
+    - `/sellProduct?sortBy=higherSoldPrice`
+- **POST /sellProduct**
+  - Commit new transaction data to the sellbuys collection.
+  - Sample Request Body: JSON
+    ```json
+    { "productName": "Table", "costPrice": 1000, "soldPrice": 1500 }
+    ```
+- **PATCH /sellProduct/:**
+  - Update existing transaction details in the sellbuys collection.
+  - Sample Request Body: JSON
+    ```json
+    { "soldPrice": 2000 }
+    ```
+- **DELETE /sellProduct/:**
+  - Remove transaction records using their unique identifier.
 ## 🛠 Dependencies
 Equip your app with these powerful tools:
 
