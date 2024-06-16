@@ -8,7 +8,7 @@ Embark on your journey to simplified shop management by setting up the Sell and 
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/baleashvar/Wings1-buy-and-sell-product
 
 2. **Install dependencies** to equip your app with all the necessary tools:
 npm install
