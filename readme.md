@@ -17,7 +17,7 @@ npm install
 npm start
 
 
-Upon successful startup, you’ll be greeted with a confirmation message stating that your server is running on port 8001.
+Upon successful startup, you’ll be greeted with a confirmation message stating that your **server is running on port 8001**.
 
 
 ## 📚 Usage
@@ -49,11 +49,12 @@ JSON
 }
 AI-generated code. Review and use carefully. More info on FAQ.
 DELETE /sellProduct/<id>: Remove transaction records using their unique identifier.
-🛠 Dependencies
+
+## 🛠 Dependencies
 Equip your app with these powerful tools:
 
-express: ^4.17.1 - The fast, unopinionated, minimalist web framework for Node.js.
-mongoose: ^5.13.3 - Elegant MongoDB object modeling for Node.js.
+- **express:** ^4.17.1 - The fast, unopinionated, minimalist web framework for Node.js.
+- **mongoose:** ^5.13.3 - Elegant MongoDB object modeling for Node.js.
 
 ## 🤝 Contributing
 
