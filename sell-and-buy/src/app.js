@@ -5,8 +5,6 @@ const sellAndBuyRouter = require('./routers/sellAndBuy');
 
 const app = express();
 
-
-
 mongoose.connect('mongodb+srv://baleashvar:Stone123@cluster0.jnyfsoz.mongodb.net/')
   .then(() => {
     console.log('Connected to MongoDB');
